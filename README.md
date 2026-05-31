@@ -12,7 +12,6 @@
 
 - **Node.js**（建议 LTS）
 - **React 19**、**Vite 6**、**@vitejs/plugin-react**（见 `package.json`）
-- 运行时从 **Google Fonts** 加载 Cinzel、Lora
 - **DeepSeek API**（[官方文档](https://api-docs.deepseek.com/)，OpenAI 兼容的 `POST /v1/chat/completions`）：本地开发在仓库根目录配置 `DEEPSEEK_API_KEY`（见下方）
 
 ## 如何运行
