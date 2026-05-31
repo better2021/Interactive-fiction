@@ -60,6 +60,7 @@ export async function onRequestPost(context) {
     method: "POST",
     headers,
     body: request.body,
+    duplex: "half",
   });
 
   try {
